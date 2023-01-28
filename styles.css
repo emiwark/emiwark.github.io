@@ -1,5 +1,15 @@
 body {
     margin: 0;
-    background: blue;
+    background: color: #28A3A0;
     text-align: center;
+}
+h1 {
+    color: rgb(0,0,0);
+    font-family: verdana;
+    font-size: 300%;
+}
+p {
+    color: red;
+    font-family: courier;
+    font-size: 12pt
 }
