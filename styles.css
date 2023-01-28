@@ -17,10 +17,11 @@ body {
 h1, h2, h3 {
     font-family: "Roboto";
     color: rgb(0,0,0);
-    font-size: 300%;
+    font-size: 16px;
     font-weight: 600;
 }
 p {
+    font-family: "Roboto";
     color: #324B4A;
     font-bold: true
     font-size: 10pt
