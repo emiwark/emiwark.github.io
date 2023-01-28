@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background: #28A3A0;
+    background: #E4FFFD;
     text-align: center;
 }
 h1 {
@@ -9,7 +9,7 @@ h1 {
     font-size: 300%;
 }
 p {
-    color: blue;
-    font-family: consolas;
+    color: #324B4A;
+    font-bold: true
     font-size: 10pt
 }
