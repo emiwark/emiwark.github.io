@@ -12,15 +12,37 @@
 </head>
 
 <body>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+
+    <!-- Accent-colored raised button with ripple -->
+    <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+      Button
+    </button>
+    <!-- Colored FAB button -->
+    <button class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored">
+      <i class="material-icons">add</i>
+    </button>
+
     <!-- Navbar Start -->
     <header id="topnav" class="defaultscroll sticky">
         <div class="container">
-            <nav class="w3-bar w3-black">
-                <a href="#home" class="w3-button w3-bar-item">Home</a>
-                <a href="#band" class="w3-button w3-bar-item">Band</a>
-                <a href="#tour" class="w3-button w3-bar-item">Tour</a>
-                <a href="#contact" class="w3-button w3-bar-item">Contact</a>
-            </nav>
+            <a class="home-logo" href="index.html">
+                    <img src="/icons/home_FILL0_wght400_GRAD0_opsz48.png" height="24">
+            </a>
+
+            <ul class="navigation-menu">
+                <li><a href="index.html" class="sub-menu-item">Home</a></li>
+                <li><a href="#about" class="sub-menu-item">About</a></li>
+            </ul>
+
+<!--            <nav class="w3-bar w3-black">-->
+<!--                <a href="#about" class="w3-button w3-bar-item">About</a>-->
+<!--                <a href="#tour" class="w3-button w3-bar-item">Tour</a>-->
+<!--                <a href="#contact" class="w3-button w3-bar-item">Contact</a>-->
+<!--            </nav>-->
         </div>
     </header>
     <!-- Navbar End -->
