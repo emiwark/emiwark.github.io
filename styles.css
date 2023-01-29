@@ -1,6 +1,34 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:bold,bolditalic&display=swap");
 
 /* MENU */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #E7DECD /* Bone */
+    color: #10403F /* Dark Teal */
+}
+
+.navlinks a{
+    color: #fff;
+}
+
+/* LOGO */
+.logo {
+    font-size: 32px;
+}
+
+/* NAVBAR MENU */
+.menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+}
+
+
+
+
 
 #topnav {
     position: fixed;
