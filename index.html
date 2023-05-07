@@ -9,7 +9,6 @@
         <meta name="description" content="Simple spreadsheets for life">
         <meta name="author" content="emiwark">
         <title>Em's Website</title>
-        <link rel="stylesheet" href="styles.css">
 
         <!-- Material Components for Web Bundles https://m2.material.io/develop/web/getting-started -->
 <!--        <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">-->
@@ -21,6 +20,9 @@
         <!-- Import Materialize CSS // This part is from chatgpt-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
+        <!-- My CSS page // Will take precedence if conflicts with above -->
+        <link rel="stylesheet" href="styles.css">
+
     </head>
     <body>
 
@@ -28,13 +30,13 @@
         <nav>
             <div class="nav-wrapper">
               <!-- Logo -->
-              <a href="#" class="brand-logo">EMWK</a>
+              <a href="#" class="logo">EMWK</a>
               <!-- Mobile Navbar -->
               <a href="#" data-target="mobile-menu" class="sidenav-trigger"><i class="material-icons">menu</i></a>
               <!-- Desktop Navbar -->
               <ul class="right hide-on-med-and-down">
                 <li><a href="#">Downloads</a></li>
-                <li><a href="/about.html">About</a></li>
+                <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
               </ul>
             </div>
