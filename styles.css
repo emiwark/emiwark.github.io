@@ -19,21 +19,47 @@ body {
     color: #37474f;
     background-color: #e0f2f1;
     text-align: center;
+    margin: 20px 40px;
 }
 h1, h2, h3 {
     font-family: "Roboto";
     color: rgb(0,0,0);
     font-size: 16px;
     font-weight: 600;
+    text-align:center;
 }
 p {
     font-family: "Roboto";
     color: #324B4A;
-    font-bold: true
+    font-weight: bold;
     font-size: 10pt
 }
 
+/* SECTIONS */
 
+#section1 {
+    height: 100vh; /* 100% of the viewport height */
+    position: relative;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+#section2 {
+    height: 100vh;
+    position: relative;
+    top: -100vh; /* negative the height of the previous section */
+    left: 0;
+    overflow: hidden;
+  }
+  
+#section3 {
+    height: 100vh;
+    position: relative;
+    top: -200vh; /* negative the height of the previous two sections */
+    left: 0;
+    overflow: hidden;
+  }
 
 
 /* MENU */
